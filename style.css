@@ -9,11 +9,16 @@ html{
   font-size: 100%;
 }
 body{
-  background-image: url(https://i.pinimg.com/564x/06/21/1d/06211d45be45f6a88809f2c374e70265.jpg);
+  /* background-image: url(https://i.pinimg.com/564x/06/21/1d/06211d45be45f6a88809f2c374e70265.jpg); */
+  background-image:url(https://images.unsplash.com/photo-1518998053901-5348d3961a04?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80);
   background-repeat: no-repeat;
-  object-fit: fill;
-  background-position: center;
+  background-attachment: fixed;
   background-size: cover;
+}
+.hideCard{
+  padding-left: 100px;
+  padding-top: 100px;
+  
 }
 #navmenu ul{
   display: flex;
@@ -21,12 +26,15 @@ body{
 }
 
 #navmenu ul li {
-  margin: 30px;
+  margin: 10px;
   list-style: none;
-  border: 1px solid rgb(25, 11, 174);
-  padding: 20px;
+  border: 1px solid rgb(240, 233, 233);
+  padding: 13px;
   border-radius: 10px;
   cursor: pointer;
+  padding-bottom: 20px;
+  text-align: center;
+
 }
 img{
   width: 100%;

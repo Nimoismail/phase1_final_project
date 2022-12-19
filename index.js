@@ -1,3 +1,27 @@
+const hide=document.querySelector(".hide")
+hide.style.display="none"
+
+const hideCard=document.querySelector(".hideCard")
+hideCard.style.display="block"
+const card=document.querySelector(".card")
+
+const btn=document.querySelector("#btn")
+const button = document.createElement('a');
+    button.className = 'btn btn-outline-dark';
+    button.textContent = 'Login';
+    card.appendChild(button)
+
+button.addEventListener("click",() =>{
+      document.body.style.backgroundImage="none"
+     
+      if(hide.style.display==="none"){
+            hide.style.display="block"
+            
+      }
+      if(hideCard.style.display==="block"){
+            hideCard.style.display="none"
+      }
+})
 class PhotoGallery{
   constructor(){
     this.API_KEY = 'YOUR_API_KEY';

@@ -52,7 +52,7 @@ Make sure to run your tests so that it all goes well.
 
 ### API sever
 
-Public Api server url is retrived from the pexels.coms
+Public Api server url is retrived from the pexels.com
 
 # How to Deploy
 

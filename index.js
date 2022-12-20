@@ -10,7 +10,7 @@ const button = document.createElement('a');
     button.className = 'btn btn-outline-dark';
     button.textContent = 'Login';
     card.appendChild(button)
-    button.style.cursor = "pointer"; 
+    button.style.cursor = "Pointer"; 
 
 button.addEventListener("click",() =>{
       document.body.style.backgroundImage="none"

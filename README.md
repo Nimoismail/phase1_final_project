@@ -12,11 +12,8 @@ I will be fetching images from the `public` Api server.
 
 This is a simple project that will require  a few event listeners
 
-# Getting started
-
-
-
-
+Also this project has a login form that will just allow you to click the login button 
+and the photogalery with the searching button appears 
 
 
 # prerequisities
@@ -42,10 +39,6 @@ Change Directory:
 (Optional) Open it in Visual Studio Code
 
 code .
-
-#   Installation
-
-
 
 # Running Tests
 

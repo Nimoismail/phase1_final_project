@@ -15,10 +15,6 @@ body{
   background-attachment: fixed;
   background-size: cover;
 }
-.hideCard{
-  padding-top: 100px;
-  
-}
 
 #navmenu ul{
   display: flex;
@@ -51,7 +47,7 @@ section{
 }
 .container{
   background-color: white;
-  width: 100%;
+  width: 90%;
   max-width: 900px;
   margin: 0 auto;
   box-shadow: 0px 0px 61px 7px #5e849c40;
@@ -72,12 +68,12 @@ section{
 }
 form{
   margin-top: 30px;
-  width: 50%;
+  width: 80%;
   max-width: 300px;
   position: relative;
-  background-color: ghostwhite;
-  
-
+}
+.form-text {
+    color: gray; 
 }
 input{
   border: none;
@@ -87,6 +83,7 @@ input{
   outline: none;
   color: gray;
   background-color: transparent;
+  text-align: center; 
 }
 input::placeholder{
   opacity: .5;
@@ -168,4 +165,18 @@ form ion-icon{
    grid-gap: 30px;
  }
  
+}
+.hideCard {
+    width:  350px; 
+    height: 240px; 
+    background: antiquewhite; 
+    position: absolute; 
+    margin-top: 50%; 
+    left: 120%; 
+    border-radius: 20px; 
+    padding: 40px 25px; 
+    border: 1px solid var(--alternative-color); 
+    opacity: 0.75; 
+    box-shadow: 10px 10px 5px rgb(56, 55, 52);
+    text-align: center;
 }
